@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "tfc.su_test.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "refmap": "su_test.refmap.json",
+  "mixins": [
+  ],
+  "client": [
+    "MainMenuMixin",
+    "MCMixin",
+    "ServerMixin",
+    "CommandSourceMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
